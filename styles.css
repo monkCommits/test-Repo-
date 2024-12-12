@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+html {
+  font-size: 18px;
+}
+/* Add styles here! */
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.intro-chunk {
+  padding: 96px 0px;
+}
+.intro-chunk p {
+  font-size: 1.25rem;
+  max-width: 400px;
+}
+.intro-chunk .title {
+  font-size: 2rem;
+  margin-bottom: 32px;
+}
+main {
+  background-color: grey;
+  padding: 96px 0px;
+}
+.card {
+  background-color: white;
+  padding: 24px;
+  margin: -24px;
+}
+.indented-heading {
+  background-color: yellow;
+  /* margin-left: -32px; */
+  width: fit-content;
+  /* padding: 16px 32px; */
+  position: relative;
+  bottom: 100px;
+}
+.card p:last-child {
+  margin-bottom: 0px;
+}
